@@ -1,0 +1,33 @@
+<Bindings>
+	<Layer name="SI_KEYBINDINGS_LAYER_GENERAL">
+		<Category name="Assistant Keybinder">
+			<Action name="ASSISTANTKEYBINDER_267">
+				<Down>UseCollectible(267)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_300">
+				<Down>UseCollectible(300)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_301">
+				<Down>UseCollectible(301)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_396">
+				<Down>UseCollectible(396)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_397">
+				<Down>UseCollectible(397)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_6378">
+				<Down>UseCollectible(6378)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_6376">
+				<Down>UseCollectible(6376)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_9245">
+				<Down>UseCollectible(9245)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_9353">
+				<Down>UseCollectible(9353)</Down>
+			</Action>
+		</Category>
+	</Layer>
+</Bindings>

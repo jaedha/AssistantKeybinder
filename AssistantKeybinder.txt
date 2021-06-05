@@ -1,0 +1,16 @@
+## Title: Assistant Keybinder
+## Description: Allows you to bind keys to quickly summon your assistants and companions
+## Version: 2021.06.05-1
+## AddOnVersion: 2021.06.05-1
+## Author: jaedha
+## APIVersion: 100035
+
+AssistantKeybinder.lua
+bindings.xml
+
+; DISCLAIMER
+; This Add-on is not created by, affiliated with or sponsored by ZeniMax
+; Media Inc. or its affiliates. The Elder Scrolls and related logos are
+; registered trademarks or trademarks of ZeniMax Media Inc. in the United
+; States and/or other countries. All rights reserved.
+; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
