@@ -39,13 +39,17 @@ local ASSISTANTS = {
 	[9353] = true, -- Mirri Elendis, Companion
 }
 
+function KEYBINDING_MANAGER:IsChordingAlwaysEnabled()
+	return true
+end
+
 local function CreateBindings()
 	for assistantIndex in pairs(ASSISTANTS) do
 		local name, _, _, _, unlocked = GetCollectibleInfo(assistantIndex)
 		if unlocked then
 			local stringId = "SI_BINDING_NAME_ASSISTANTKEYBINDER_" .. assistantIndex
-			if GetString(stringId) == "" then
-				ZO_CreateStringId(stringId, zo_strformat(SI_COLLECTIBLE_NAME_FORMATTER, name))
+			if GetString(_G[stringId]) == "" then
+				ZO_CreateStringId(stringId, ZO_CachedStrFormat(SI_COLLECTIBLE_NAME_FORMATTER, name))
 			end
 		end
 	end
@@ -54,6 +58,7 @@ end
 local function OnAddonLoaded(_, addonName)
 	if addonName == ADDON_NAME then
 		CreateBindings()
+		EVENT_MANAGER:RegisterForEvent(ADDON_NAME, EVENT_COLLECTIBLE_UPDATED, CreateBindings)
 		EVENT_MANAGER:RegisterForEvent(ADDON_NAME, EVENT_COLLECTION_UPDATED, CreateBindings)
 		EVENT_MANAGER:UnregisterForEvent(ADDON_NAME, EVENT_ADD_ON_LOADED)
 	end

@@ -1,9 +1,9 @@
 ## Title: Assistant Keybinder
 ## Description: Allows you to bind keys to quickly summon your assistants and companions
-## Version: 2021.06.05-1
-## AddOnVersion: 2021.06.05-1
+## Version: 20210823-1
+## AddOnVersion: 20210823-1
 ## Author: jaedha
-## APIVersion: 100035
+## APIVersion: 101031
 
 AssistantKeybinder.lua
 bindings.xml
