@@ -35,8 +35,14 @@ local ASSISTANTS = {
 	[397] = true, -- Cassus Andronicus, Banker
 	[6376] = true, -- Ezabi, Banker
 	[6378] = true, -- Fezez, Merchant
+	[8994] = true, -- Baron Jangleplume
+	[8995] = true, -- Peddler of Prizes
 	[9245] = true, -- Bastian Helix, Companion
 	[9353] = true, -- Mirri Elendis, Companion
+	[9743] = true, -- Factotum Property Steward
+	[9744] = true, -- Factotum Commerce Delegate
+	[9745] = true, -- Ghrasharog, Armory Assistant
+	[10184] = true, -- Giladil the Ragpicker
 }
 
 function KEYBINDING_MANAGER:IsChordingAlwaysEnabled()

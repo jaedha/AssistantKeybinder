@@ -22,12 +22,30 @@
 			<Action name="ASSISTANTKEYBINDER_6378">
 				<Down>UseCollectible(6378)</Down>
 			</Action>
+			<Action name="ASSISTANTKEYBINDER_8994">
+				<Down>UseCollectible(8994)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_8995">
+				<Down>UseCollectible(8995)</Down>
+			</Action>						
 			<Action name="ASSISTANTKEYBINDER_9245">
 				<Down>UseCollectible(9245)</Down>
 			</Action>
 			<Action name="ASSISTANTKEYBINDER_9353">
 				<Down>UseCollectible(9353)</Down>
+			</Action>			
+			<Action name="ASSISTANTKEYBINDER_9743">
+				<Down>UseCollectible(9743)</Down>
 			</Action>
+			<Action name="ASSISTANTKEYBINDER_9744">
+				<Down>UseCollectible(9744)</Down>
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_9745">
+				<Down>UseCollectible(9745)</Down>												
+			</Action>
+			<Action name="ASSISTANTKEYBINDER_10184">
+				<Down>UseCollectible(10184)</Down>												
+			</Action>			
 		</Category>
 	</Layer>
 </Bindings>
